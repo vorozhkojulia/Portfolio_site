@@ -4,13 +4,7 @@ A single-page portfolio website for Julia Vorozhko, a multidisciplinary designer
 
 ## Running it locally
 
-The site is static, so any local web server works (opening `index.html` directly via `file://` will break the image grid and scroll effects due to browser security restrictions on local files).
-
-```bash
-python -m http.server 5173
-```
-
-Then open `http://localhost:5173`. A ready-made config for this is already in [`.claude/launch.json`](.claude/launch.json), so it also runs via Claude Code's built-in preview.
+The site is static, so any local web server works.
 
 ## Project structure
 
