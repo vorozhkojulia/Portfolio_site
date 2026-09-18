@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Julia — Designer Portfolio</title>
+<meta name="description" content="Portfolio of a multidisciplinary designer — web design, app design, brand identity, illustration and social content.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav__logo">J<span class="dot">.</span>Vorozhko</a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#work-grid">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#about">Contact</a>
+  </nav>
+  <a href="#about" class="btn btn--ghost nav__cta">Let's talk</a>
+  <button class="nav__burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="boxes-bg-wrap" aria-hidden="true">
+      <div class="boxes-bg" id="boxesBg"></div>
+    </div>
+
+    <p class="hero__kicker">Design Portfolio</p>
+
+    <div class="text-flip">
+      <span class="text-flip__static">I craft</span>
+      <span class="text-flip__pill" id="flipPill">
+        <span class="text-flip__word" id="flipWord">Web Design</span>
+      </span>
+    </div>
+
+    <p class="hero__subtitle">Ready to elevate your brand? Let&rsquo;s create together.</p>
+
+    <div class="hero__cta">
+      <a href="#work-grid" class="btn btn--primary">View my work</a>
+      <a href="#about" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- PARALLAX WORK GALLERY -->
+  <section class="hero-parallax" id="work">
+    <div class="hero-parallax__sticky">
+
+      <div class="hero-parallax__rows" id="parallaxRows">
+
+        <div class="parallax-row" id="row1">
+          <article class="work-card" data-grid="assets/work/artplanet-grid.jpg" data-full="assets/work/artplanet-full.jpg" data-title="ArtPlanet" data-category="Web Design">
+            <img src="assets/work/artplanet-grid.jpg" alt="ArtPlanet — creative courses landing page" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">ArtPlanet</span><span class="work-card__cat">Web Design</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/octari-logo-grid.jpg" data-full="assets/work/octari-logo-full.jpg" data-title="Octari" data-category="Brand Identity">
+            <img src="assets/work/octari-logo-grid.jpg" alt="Octari logo design" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Octari</span><span class="work-card__cat">Brand Identity</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/run2end-logo-grid.jpg" data-full="assets/work/run2end-logo-full.jpg" data-title="Run 2 End" data-category="Brand Identity">
+            <img src="assets/work/run2end-logo-grid.jpg" alt="Run 2 End childhood obesity charity logo" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Run 2 End</span><span class="work-card__cat">Brand Identity</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/b1dex-website-grid.jpg" data-full="assets/work/b1dex-website-full.jpg" data-title="B1DEx" data-category="Web Design">
+            <img src="assets/work/b1dex-website-grid.jpg" alt="B1DEx — exam prep website" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">B1DEx</span><span class="work-card__cat">Web Design</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/lovecooking-website-grid.jpg" data-full="assets/work/lovecooking-website-full.jpg" data-title="Love Cooking" data-category="Web Design">
+            <img src="assets/work/lovecooking-website-grid.jpg" alt="Love Cooking — recipe website" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Love Cooking</span><span class="work-card__cat">Web Design</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/realestate-home-grid.jpg" data-full="assets/work/realestate-home-full.jpg" data-title="KAO &amp; Home — Homepage" data-category="Web Design">
+            <img src="assets/work/realestate-home-grid.jpg" alt="KAO & Home — real estate homepage" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">KAO &amp; Home</span><span class="work-card__cat">Web Design</span></div>
+          </article>
+        </div>
+
+        <div class="parallax-row" id="row2">
+          <article class="work-card" data-grid="assets/work/realestate-details-grid.jpg" data-full="assets/work/realestate-details-full.jpg" data-title="KAO &amp; Home — Listing" data-category="Web Design">
+            <img src="assets/work/realestate-details-grid.jpg" alt="KAO & Home — property listing page" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">KAO &amp; Home</span><span class="work-card__cat">Web Design</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/ecommerce-dashboard-grid.jpg" data-full="assets/work/ecommerce-dashboard-full.jpg" data-title="E-Commerce Dashboard" data-category="App Design">
+            <img src="assets/work/ecommerce-dashboard-grid.jpg" alt="E-commerce analytics dashboard" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">E-Commerce Dashboard</span><span class="work-card__cat">App Design</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/claude-app-grid.jpg" data-full="assets/work/claude-app-full.jpg" data-title="Trail Finder App" data-category="App Design">
+            <img src="assets/work/claude-app-grid.jpg" alt="Trail finder mobile app design" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Trail Finder App</span><span class="work-card__cat">App Design</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/fatcat-illustration-grid.jpg" data-full="assets/work/fatcat-illustration-full.jpg" data-title="Grumpy Cat" data-category="Illustration">
+            <img src="assets/work/fatcat-illustration-grid.jpg" alt="Grumpy fat cat character illustration" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Grumpy Cat</span><span class="work-card__cat">Illustration</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/year2025-grid.jpg" data-full="assets/work/year2025-full.jpg" data-title="2025" data-category="Illustration">
+            <img src="assets/work/year2025-grid.jpg" alt="2025 papercut-style numeral illustration" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">2025</span><span class="work-card__cat">Illustration</span></div>
+          </article>
+        </div>
+
+        <div class="parallax-row" id="row3">
+          <article class="work-card" data-grid="assets/work/petrykivka-tray-grid.jpg" data-full="assets/work/petrykivka-tray-full.jpg" data-title="Petrykivka Tray" data-category="Illustration">
+            <img src="assets/work/petrykivka-tray-grid.jpg" alt="Petrykivka style floral painting on a wooden tray" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Petrykivka Tray</span><span class="work-card__cat">Illustration</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/petrykivka-grid.jpg" data-full="assets/work/petrykivka-full.jpg" data-title="Petrykivka Painting" data-category="Illustration">
+            <img src="assets/work/petrykivka-grid.jpg" alt="Petrykivka style floral painting" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Petrykivka Painting</span><span class="work-card__cat">Illustration</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/oil-painting-grid.jpg" data-full="assets/work/oil-painting-full.jpg" data-title="Oil Portrait" data-category="Illustration">
+            <img src="assets/work/oil-painting-grid.jpg" alt="Oil painting style portrait illustration" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Oil Portrait</span><span class="work-card__cat">Illustration</span></div>
+          </article>
+          <article class="work-card" data-grid="assets/work/festive-portrait-grid.jpg" data-full="assets/work/festive-portrait-full.jpg" data-title="Festive Glow" data-category="Social Content">
+            <img src="assets/work/festive-portrait-grid.jpg" alt="Festive glow portrait social content design" loading="lazy">
+            <div class="work-card__overlay"><span class="work-card__title">Festive Glow</span><span class="work-card__cat">Social Content</span></div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about__inner">
+      <p class="section-kicker">About</p>
+      <h2 class="about__title">Hi, I&rsquo;m Julia — a multidisciplinary designer.</h2>
+      <p class="about__text">
+        I&rsquo;ve been designing since 2010, blending that experience with a modern,
+        AI-assisted workflow that lets me prototype ideas fast and keep projects moving.
+        My focus is web and app design, with brand identity in the mix &mdash; and yes,
+        I can draw by hand too.
+      </p>
+      <a href="mailto:julia.vorozhko.design@gmail.com" class="btn btn--primary btn--lg about__contact-btn">julia.vorozhko.design@gmail.com</a>
+      <ul class="about__tags">
+        <li>Web Design</li>
+        <li>UI / UX</li>
+        <li>Brand Identity</li>
+        <li>Illustration</li>
+        <li>Social Content</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- WORK GRID -->
+  <section class="work-grid" id="work-grid">
+    <div class="work-grid__header">
+      <p class="section-kicker">Portfolio</p>
+      <h2>Selected Projects</h2>
+    </div>
+    <div class="work-grid__list" id="workGridList">
+      <div class="grid-hover-bg" id="gridHoverBg" aria-hidden="true"></div>
+      <article class="grid-card" data-full="assets/work/artplanet-full.jpg" data-title="ArtPlanet" data-category="Web Design">
+        <div class="grid-card__image"><img src="assets/work/artplanet-grid.jpg" alt="ArtPlanet — creative courses landing page" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">ArtPlanet</span><span class="grid-card__cat">Web Design</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/octari-logo-full.jpg" data-title="Octari" data-category="Brand Identity">
+        <div class="grid-card__image"><img src="assets/work/octari-logo-grid.jpg" alt="Octari logo design" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Octari</span><span class="grid-card__cat">Brand Identity</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/run2end-logo-full.jpg" data-title="Run 2 End" data-category="Brand Identity">
+        <div class="grid-card__image"><img src="assets/work/run2end-logo-grid.jpg" alt="Run 2 End childhood obesity charity logo" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Run 2 End</span><span class="grid-card__cat">Brand Identity</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/b1dex-website-full.jpg" data-title="B1DEx" data-category="Web Design">
+        <div class="grid-card__image"><img src="assets/work/b1dex-website-grid.jpg" alt="B1DEx — exam prep website" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">B1DEx</span><span class="grid-card__cat">Web Design</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/lovecooking-website-full.jpg" data-title="Love Cooking" data-category="Web Design">
+        <div class="grid-card__image"><img src="assets/work/lovecooking-website-grid.jpg" alt="Love Cooking — recipe website" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Love Cooking</span><span class="grid-card__cat">Web Design</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/realestate-home-full.jpg" data-title="KAO &amp; Home — Homepage" data-category="Web Design">
+        <div class="grid-card__image"><img src="assets/work/realestate-home-grid.jpg" alt="KAO & Home — real estate homepage" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">KAO &amp; Home — Homepage</span><span class="grid-card__cat">Web Design</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/realestate-details-full.jpg" data-title="KAO &amp; Home — Listing" data-category="Web Design">
+        <div class="grid-card__image"><img src="assets/work/realestate-details-grid.jpg" alt="KAO & Home — property listing page" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">KAO &amp; Home — Listing</span><span class="grid-card__cat">Web Design</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/ecommerce-dashboard-full.jpg" data-title="E-Commerce Dashboard" data-category="App Design">
+        <div class="grid-card__image"><img src="assets/work/ecommerce-dashboard-grid.jpg" alt="E-commerce analytics dashboard" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">E-Commerce Dashboard</span><span class="grid-card__cat">App Design</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/claude-app-full.jpg" data-title="Trail Finder App" data-category="App Design">
+        <div class="grid-card__image"><img src="assets/work/claude-app-grid.jpg" alt="Trail finder mobile app design" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Trail Finder App</span><span class="grid-card__cat">App Design</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/fatcat-illustration-full.jpg" data-title="Grumpy Cat" data-category="Illustration">
+        <div class="grid-card__image"><img src="assets/work/fatcat-illustration-grid.jpg" alt="Grumpy fat cat character illustration" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Grumpy Cat</span><span class="grid-card__cat">Illustration</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/petrykivka-full.jpg" data-title="Petrykivka Painting" data-category="Illustration">
+        <div class="grid-card__image"><img src="assets/work/petrykivka-grid.jpg" alt="Petrykivka style floral painting" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Petrykivka Painting</span><span class="grid-card__cat">Illustration</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/petrykivka-tray-full.jpg" data-title="Petrykivka Tray" data-category="Illustration">
+        <div class="grid-card__image"><img src="assets/work/petrykivka-tray-grid.jpg" alt="Petrykivka style floral painting on a wooden tray" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Petrykivka Tray</span><span class="grid-card__cat">Illustration</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/oil-painting-full.jpg" data-title="Oil Portrait" data-category="Illustration">
+        <div class="grid-card__image"><img src="assets/work/oil-painting-grid.jpg" alt="Oil painting style portrait illustration" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Oil Portrait</span><span class="grid-card__cat">Illustration</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/year2025-full.jpg" data-title="2025" data-category="Illustration">
+        <div class="grid-card__image"><img src="assets/work/year2025-grid.jpg" alt="2025 papercut-style numeral illustration" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">2025</span><span class="grid-card__cat">Illustration</span></div>
+      </article>
+      <article class="grid-card" data-full="assets/work/festive-portrait-full.jpg" data-title="Festive Glow" data-category="Social Content">
+        <div class="grid-card__image"><img src="assets/work/festive-portrait-grid.jpg" alt="Festive glow portrait social content design" loading="lazy"></div>
+        <div class="grid-card__caption"><span class="grid-card__title">Festive Glow</span><span class="grid-card__cat">Social Content</span></div>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>&copy; <span id="year"></span> Julia. All designs shown are original work.</span>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close image">&times;</button>
+  <figure class="lightbox__figure">
+    <img id="lightboxImg" src="" alt="">
+    <figcaption>
+      <span id="lightboxTitle"></span>
+      <span id="lightboxCategory"></span>
+    </figcaption>
+  </figure>
+</div>
+
+<span id="flipMeasure" aria-hidden="true"></span>
+
+<script src="js/script.js"></script>
+</body>
+</html>
